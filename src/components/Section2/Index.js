@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Container, Row, Col} from 'reactstrap'
+import {Container,Row,Col} from 'reactstrap'
+
 class Section2 extends Component {
     render() {
         return (
@@ -7,11 +8,9 @@ class Section2 extends Component {
                 <Container>
                     <Row>
                         <Col className={'col-xs-12'}>
-                            <h1 className={'text-center'}>Get Feedback</h1>
-                            <p className={'lead text-center'}>
-                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                                Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+                            <h1 className={'text-center'}>Hi, this is the first Section</h1>
+                            <p className={'text-center'}>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus.
                             </p>
                         </Col>
                     </Row>

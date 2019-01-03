@@ -1,10 +1,5 @@
 import React, {Component} from 'react';
-import {Container,Row,Col} from 'reactstrap'
-import Card from './Card'
-import Image1 from '../../assets/img/img2.jpg'
-import Image2 from '../../assets/img/img1.jpg'
-import Image3 from '../../assets/img/img3.jpg'
-
+import {Container, Row,Col,Button} from 'reactstrap'
 class Section1 extends Component {
     render() {
         return (
@@ -12,21 +7,11 @@ class Section1 extends Component {
                 <Container>
                     <Row>
                         <Col className={'col-xs-12'}>
-                            <h1 className={'text-center'}>Hi, this is the first Section</h1>
-                            <p className={'text-center'}>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                                ridiculus mus.
+                            <h2 className={'text-center'}>Welcome To Parallax Page View With React And Bootstrap</h2>
+                            <p className={'lead text-center'}>Cum sociis natoque penatibus et magnis dis.</p>
+                            <p className={'text-center'}>
+                                <Button className={'btn btn-danger'}>See more</Button>
                             </p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col className={'col-sm-4'}>
-                            <Card image={Image1} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
-                        </Col>
-                        <Col className={'col-sm-4'}>
-                            <Card image={Image2} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
-                        </Col>
-                        <Col className={'col-sm-4'}>
-                            <Card image={Image3} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
                         </Col>
                     </Row>
                 </Container>

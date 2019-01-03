@@ -15,4 +15,34 @@ div.header-site{
 
 div.section1{
   margin-top: 55px;
+  background-image: url(assets/img/background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 355px;
+  padding-bottom: 355px;
+}
+div.section2{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+div.section4{
+  margin-top: 55px;
+  background-image: url(assets/img/background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+div.footer-site{
+  padding-top: 10px;
+  background-color: #333;
+  color: #ffffff;
 }
