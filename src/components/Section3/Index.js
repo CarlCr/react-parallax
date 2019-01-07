@@ -12,13 +12,13 @@ class Section3 extends Component {
                 <Container>
                     <Row>
                         <Col className={'col-sm-4'}>
-                            <Card image={Image1} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
+                            <Card image={Image1} title={"Paisagens em Angola"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
                         </Col>
                         <Col className={'col-sm-4'}>
-                            <Card image={Image2} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
+                            <Card image={Image2} title={"Quedas em Angola"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
                         </Col>
                         <Col className={'col-sm-4'}>
-                            <Card image={Image3} title={"Mercedes Benz"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
+                            <Card image={Image3} title={"Quedas de Kalandula"} message={"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum"}/>
                         </Col>
                     </Row>
                 </Container>

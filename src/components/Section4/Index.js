@@ -7,7 +7,7 @@ class Section4 extends Component {
                 <Container>
                     <Row>
                         <Col className={'col-xs-12'}>
-                            <h1 className={'text-center'}>Get Feedback</h1>
+                            <h1 className={'text-center'}>Get More Info</h1>
                             <p className={'lead text-center'}>
                                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                                 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
